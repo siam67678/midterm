@@ -14,7 +14,9 @@
 <body>
     <header>
         <nav class="navbar">
-           
+            <div class="logo">
+                <img src="your_logo.png" alt="Logo">
+            </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
@@ -24,15 +26,19 @@
         </nav>
     </header>
 
-  <!--  <main class="homepage-grid">
-       <h1 class="bordered-text"></h1>
-        <div class="homepage-content">
-            <div class="ind">
-                <div class="index">
-               </div>
-            </div>
-          -->      
-    </div>
+    <main>
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </main>
 
 </body>
